@@ -32,6 +32,6 @@ No shell interativo do Elixir, você pode chamar a função:
 ```
 iex(1)> FizzBuzz.run("numbers.txt")
 ```
-No projeto já existe um .txt base com os números no intervalo de 1 a 100
+No projeto já existe um .txt base com os números no intervalo de 1 a 50
 
 O resultado da função é uma tupla {:status, value}, onde o status pode ser :error ou :ok, e o value no caso do :ok será os numéros após o fizzbuzz e no caso do :error será a mensagem de error.
